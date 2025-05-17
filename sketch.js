@@ -5,32 +5,32 @@ let music = localStorage.getItem('avanza:music') === 'true'
 // Método para cargar los assets
 function preload() {
   // Sonidos
-  musicBg = loadSound('/assets/music.mp3')
+  musicBg = loadSound('assets/music.mp3')
 
   // Splash
-  imgSplash = loadImage('/assets/splash.png')
+  imgSplash = loadImage('assets/splash.png')
 
   // Intro
-  imgIntroBg = loadImage('/assets/intro-bg.png')
-  imgBotonSaltar = loadImage('/assets/boton-saltar.png')
+  imgIntroBg = loadImage('assets/intro-bg.png')
+  imgBotonSaltar = loadImage('assets/boton-saltar.png')
 
   // Menu
-  imgMenuBg = loadImage('/assets/menu-bg.png')
-  imgBotonJugar = loadImage('/assets/boton-jugar.png')
-  imgBotonMusicaOn = loadImage('/assets/boton-musica-on.png')
-  imgBotonMusicaOff = loadImage('/assets/boton-musica-off.png')
-  imgBotonInstrucciones = loadImage('/assets/boton-instrucciones.png')
+  imgMenuBg = loadImage('assets/menu-bg.png')
+  imgBotonJugar = loadImage('assets/boton-jugar.png')
+  imgBotonMusicaOn = loadImage('assets/boton-musica-on.png')
+  imgBotonMusicaOff = loadImage('assets/boton-musica-off.png')
+  imgBotonInstrucciones = loadImage('assets/boton-instrucciones.png')
 
   // Tutorial
-  imgTutorialBg = loadImage('/assets/tutorial-bg.png')
-  imgBotonAtras = loadImage('/assets/boton-atras.png')
+  imgTutorialBg = loadImage('assets/tutorial-bg.png')
+  imgBotonAtras = loadImage('assets/boton-atras.png')
 
   // Juego
-  imgMuro = loadImage('/assets/muro.png')
-  imgAbuelo = loadImage('/assets/abuelo.png')
-  imgBotonReiniciar = loadImage('/assets/reiniciar.png')
-  imgTransicion1Bg = loadImage('/assets/transicion-1.png')
-  imgTransicion2Bg = loadImage('/assets/transicion-2.png')
+  imgMuro = loadImage('assets/muro.png')
+  imgAbuelo = loadImage('assets/abuelo.png')
+  imgBotonReiniciar = loadImage('assets/reiniciar.png')
+  imgTransicion1Bg = loadImage('assets/transicion-1.png')
+  imgTransicion2Bg = loadImage('assets/transicion-2.png')
 }
 
 // Método para inicializar el sketch
